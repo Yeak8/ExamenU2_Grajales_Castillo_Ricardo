@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinAdvision</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.27/dist/fancybox.css"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.0/dist/jquery.fancybox.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.0/dist/jquery.fancybox.min.js"></script>
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="container1">
+            <img href="#" class="logo" src="imagenes/logo.jpg" />
+            <button class="menu-toggle">☰</button>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="Scripts/menu.js"></script>
+    
+
+    <div class="slider-container">
+        <!-- Slide 1 -->
+        <div class="slide">
+            <img src="imagenes/slide1.jpg" alt="Slide 1">
+            <div class="content">
+                <h1>Expert Financial Advice</h1>
+                <p>Present acuratum nunc dolor sed pulvinar felis vitae...</p>
+                <button id="learn-more-btn">Learn More</button>
+            </div>
+        </div>
+        
+        <!-- Contenedor para el cuadro de la imagen y el texto -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-modal" class="close-btn">×</button>
+                <img src="imagenes/galeriafoto3.jpg" alt="Galeria Foto 3">
+                <p>Somo la empresa financiera que necesitas, ven y acércate a nosotros para que tu empresa pueda crecer.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 2 (usando una imagen directamente con <img>) -->
+        <div class="slide">
+            <img src="imagenes/slide2.jpg" alt="Slide 2">
+            <div class="content">
+                <h1>Expert Financial Advice</h1>
+                <p>Present acuratum nunc dolor sed pulvinar felis vitae...</p>
+                <button id="learn-more-btn">Learn More</button>
+            </div>
+        </div>
+        
+        <!-- Contenedor para el cuadro de la imagen y el texto -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-modal" class="close-btn">×</button>
+                <img src="imagenes/galeriafoto3.jpg" alt="Galeria Foto 3">
+                <p>Somo la empresa financiera que necesitas, ven y acércate a nosotros para que tu empresa pueda crecer.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide">
+            <img src="imagenes/slide3.jpg" alt="Slide 3">
+            <div class="content">
+                <h1>Expert Financial Advice</h1>
+                <p>Present acuratum nunc dolor sed pulvinar felis vitae...</p>
+                <button id="learn-more-btn">Learn More</button>
+            </div>
+        </div>
+        
+        <!-- Contenedor para el cuadro de la imagen y el texto -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-modal" class="close-btn">×</button>
+                <img src="imagenes/galeriafoto3.jpg" alt="Galeria Foto 3">
+                <p>Somo la empresa financiera que necesitas, ven y acércate a nosotros para que tu empresa pueda crecer.</p>
+            </div>
+        </div>    
+        <!-- Navegación -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+        <script src="Scripts/descripcion.js"></script>
+    </div>
+
+    <script src="Scripts/responsiveSlide.js"></script>
+    
+    <!-- About Us -->
+    <section class="about-us">
+        <br>
+        <h1 class="textoabout">About Us</h1>
+        <br>
+        <div class="services">
+
+            <div class="service-box wow fadeIn , wow animate__fadeIn">
+                <i class="fa-solid fa-laptop" style="color: #74C0FC;"></i>
+                <h3>Marketing Services</h3>
+                <p>Present accumsan nibh dolor, sed pulvinar felis vivamus vel. Vestibulum ac arcu in facilisis.</p>
+            </div>
+
+            <div class="service-box wow fadeIn , wow animate__fadeIn" data-wow-delay="0.2s">
+                <i class="fa-solid fa-arrow-trend-up" style="color: #74C0FC;"></i>
+                <h3>Market Research</h3>
+                <p>Non dolor, sed pulvinar felis vivamus vel. Vestibulum ac arcu in facilisis maximus accumsan.</p>
+            </div>
+
+            <div class="service-box wow fadeIn , wow animate__fadeIn" data-wow-delay="0.4s">
+                <i class="fa-regular fa-address-card" style="color: #74C0FC;"></i>
+                <h3>Business Plans</h3>
+                <p>Accumsan nibh dolor, sed pulvinar felis vivamus vel. Vestibulum ac arcu in facilisis pulvinar.</p>
+            </div>
+
+            <div class="service-box wow fadeIn , wow animate__fadeIn" data-wow-delay="0.6s">
+                <i class="fa-solid fa-dollar-sign" style="color: #74C0FC;"></i>
+                <h3>Advertising</h3>
+                <p>Accumsan nibh dolor, sed pulvinar felis vivamus vel. Vestibulum ac arcu in facilisis pulvinar.</p>
+            </div>
+        </div>
+    </section>
+    <script src="Scripts/wow.js"></script>
+
+    <!-- Proyectos -->
+
+    <br>
+    <h1 class="projects"> Projects</h1>
+    <br>
+
+    <section class="gallery-section">
+        <div class="gallery">
+            <!-- Imagen 1 -->
+            <a href="imagenes/galeriafoto1.jpg" data-fancybox="gallery" data-caption="Imagen 1">
+                <img src="imagenes/galeriafoto1.jpg" alt="Imagen 1">
+            </a>
+    
+            <!-- Imagen 2 -->
+            <a href="imagenes/galeriafoto2.jpg" data-fancybox="gallery" data-caption="Imagen 2">
+                <img src="imagenes/galeriafoto2.jpg" alt="Imagen 2">
+            </a>
+    
+            <!-- Imagen 3 -->
+            <a href="imagenes/galeriafoto3.jpg" data-fancybox="gallery" data-caption="Imagen 3">
+                <img src="imagenes/galeriafoto3.jpg" alt="Imagen 3">
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- TEAM -->
+
+    <div class="team-container">
+        <!-- Team Member -->
+        <div class="team-card" onclick="toggleDetails('member1')">
+          <h3>Jhon Tyler</h3>
+          <button>+</button>
+        </div>
+        <div id="member1" class="team-details">
+          <img src="imagenes/foto_team1.jpg" alt="Jhon Tyler">
+          <h4>Jhon Tyler</h4>
+          <p class="redesinfo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </p>
+        </div>
+    
+        <!-- Team Member -->
+        <div class="team-card" onclick="toggleDetails('member2')">
+          <h3>Stuart Williams</h3>
+          <button>+</button>
+        </div>
+        <div id="member2" class="team-details">
+          <img src="imagenes/foto_team2.jpg" alt="Stuart Williams">
+          <h4>Stuart Williams</h4>
+          <p class="redesinfo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </p>
+        </div>
+    
+        <!-- Team Member -->
+        <div class="team-card" onclick="toggleDetails('member3')">
+          <h3>Jane MacMillan</h3>
+          <button>+</button>
+        </div>
+        <div id="member3" class="team-details">
+          <img src="imagenes/foto_team3.jpg" alt="Jane MacMillan">
+          <h4>Jane MacMillan</h4>
+          <p class="redesinfo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </p>
+        </div>
+    
+        <!-- Team Member -->
+        <div class="team-card" onclick="toggleDetails('member4')">
+          <h3>Samanta Lopez</h3>
+          <button>+</button>
+        </div>
+        <div id="member4" class="team-details">
+          <img src="imagenes/foto_team4.jpg" alt="Samanta Lopez">
+          <h4>Samanta Lopez</h4>
+          <p class="redesinfo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </p>
+        </div>
+      </div>
+      <script src="Scripts/team.js"></script>
+
+
+    <!-- Services -->
+    <section class="services">
+        <h2>Our Services</h2>
+
+    </section>
+    <br><br><br><br>
+    <!-- News -->
+    <section class="news">
+        <h2>Last News</h2>
+    </section>
+    <br><br><br><br>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <!-- Logo -->
+            <img href="#" class="logofooter" src="imagenes/logo.jpg" alt="Logo" />
+            
+            <!-- Texto de derechos -->
+            <p>&copy; 2017 FinAdvision. All Rights Reserved.</p>
+            
+            <!-- Iconos de redes sociales -->
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+                </div>
+    
+            <!-- Botón para subir -->
+            <button class="scroll-top">↑</button>
+            <script src="Scripts/botonarriba.js"></script>
+        </div>
+    </footer>
+    
+
+    
+
+<script src=""></script>
+</body>
+</html>
